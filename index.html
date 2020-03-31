@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Image Gallery</title>
+</head>
+<body>
+    <h1>SnapShots</h1>
+    <ul>
+        <li><a href="images/rocks.jpg" onclick="showPic(this); return false;" title="Rocks">Rocks</a></li>
+        <li><a href="images/sunset.jpg" onclick="showPic(this); return false;" title="Sun sets">Sunset</a></li>
+        <li><a href="images/placeholder.jpg" onclick="showPic(this); return false;" title="Colors">Colors</a></li>
+        <li><a href="images/tennis.jpg" onclick="showPic(this); return false;" title="Tennis ball">Tennis</a></li>
+    </ul>
+    <center>
+        <img src="images/placeholder.jpg" alt="" srcset="" width="400" id="placeholder">
+    </center>
+    <center>
+        <p id="description">Please Select An Image</p>
+    </center>
+    <script src="index.js"></script>
+</body>
+</html>

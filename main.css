@@ -1,0 +1,23 @@
+body{
+    background-color: darkslategray;
+    color: white;
+    font-family: sans-serif;
+}
+ul{
+    background-color: rgb(157, 255, 0);
+    text-transform: uppercase;
+    padding: 20px;
+}
+li{
+    list-style-type: none;
+    display: inline;
+
+}
+a{
+ margin: 30px;   
+ text-decoration: none;
+ color: darkslategray;
+}
+#placeholder{
+    border: 10px solid white;
+}
